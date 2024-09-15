@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 10;
+    
+}
+.logo{
+    font-size: 2rem;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 20rem;
+    margin-left: 10rem;
+}
+.links a{
+    text-decoration: none;
+    color: #359381;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.links a:hover{
+    background-color:#359381 ;
+    color: white;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#head{
+    position: absolute;
+    font-size: 90px;
+    color:white ;
+}
+.parallax img{
+    position: absolute;
+    width: 100%;
+    
+}
+.contant{
+    position: relative;
+    background:#003329;
+    padding: 100px;
+}
+.head2{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+.contant p{
+    color: white;
+    line-height: 1.5rem;
+}
+    
